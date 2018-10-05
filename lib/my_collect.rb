@@ -3,5 +3,6 @@ def my_collect(array)
   array.each do |el|
     collected << yield(el)
   end
+  collected
 end
 
